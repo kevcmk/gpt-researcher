@@ -6,7 +6,7 @@ authors = ["Kevin Katz <kevin@example.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
 asyncio = "3.4.3"
 beautifulsoup4 = "4.12.2"
 colorama = "0.4.6"
