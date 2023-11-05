@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "gpt-researcher"
+version = "0.1.0"
+description = ""
+authors = ["Kevin Katz <kevin@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+asyncio = "3.4.3"
+beautifulsoup4 = "4.12.2"
+colorama = "0.4.6"
+duckduckgo-search = "3.9.3"
+md2pdf = "1.0.1"
+openai = ">=0.28.1,<0.29.0"
+playwright = "1.38.0"
+python-dotenv = ">=1.0.0,<1.1.0"
+pyyaml = "6.0.1"
+selenium = "^4.15.2"
+webdriver-manager = "4.0.1"
+flask = "^3.0.0"
+uvicorn = "^0.24.0"
+pydantic = "^2.4.2"
+fastapi = "^0.104.1"
+python-multipart = "^0.0.6"
+markdown = "^3.5.1"
+langchain = "0.0.308"
+tavily-python = "0.2.4"
+permchain = "0.0.3"
+arxiv = "^2.0.0"
+pymupdf = "^1.23.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
